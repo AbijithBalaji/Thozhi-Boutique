@@ -1,27 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thozhi boutique</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thozhi Boutique | Coming Soon</title>
     <style>
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        font-family: Arial, sans-serif;
-        background: #fff;
-        color: #111;
-      }
-      h1 {
-        margin: 0;
-        font-size: clamp(2rem, 8vw, 4rem);
-        font-weight: 600;
-      }
+        /* Basic reset and typography */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfbfb;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #d8839a; /* A soft, elegant pink suitable for a boutique */
+            color: white;
+            text-align: center;
+            padding: 2.5rem 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        /* Main content styling */
+        main {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        main h2 {
+            font-size: 1.8rem;
+            color: #444;
+            margin-bottom: 1rem;
+        }
+
+        main p {
+            font-size: 1.1rem;
+            max-width: 600px;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Call to action button */
+        .contact-btn {
+            padding: 12px 28px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-btn:hover {
+            background-color: #d8839a;
+            color: white;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 1.5rem 1rem;
+            background-color: #222;
+            color: #ccc;
+            font-size: 0.9rem;
+        }
     </style>
-  </head>
-  <body>
-    <h1>Thozhi boutique</h1>
-  </body>
+</head>
+<body>
+
+    <header>
+        <h1>Thozhi Boutique</h1>
+    </header>
+
+    <main>
+        <h2>Something Beautiful is Coming!</h2>
+        <p>We are currently working hard to set up our new website. We can't wait to share our exclusive collections and curated styles with you very soon.</p>
+        <p>Stay tuned for our grand opening.</p>
+        
+        <!-- You can replace the # with a mailto link like mailto:hello@thozhiboutique.in later -->
+        <a href="#" class="contact-btn">Contact Us</a>
+    </main>
+
+    <footer>
+        &copy; 2026 Thozhi Boutique. All rights reserved.
+    </footer>
+
+</body>
 </html>
