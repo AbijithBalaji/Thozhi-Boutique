@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thozhi Boutique | Coming Soon</title>
     <style>
-        /* Basic reset and typography */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
@@ -17,9 +16,8 @@
             min-height: 100vh;
         }
 
-        /* Header styling */
         header {
-            background-color: #d8839a; /* A soft, elegant pink suitable for a boutique */
+            background-color: #d8839a;
             color: white;
             text-align: center;
             padding: 2.5rem 1rem;
@@ -32,7 +30,6 @@
             letter-spacing: 1px;
         }
 
-        /* Main content styling */
         main {
             flex-grow: 1;
             display: flex;
@@ -57,7 +54,6 @@
             margin-bottom: 1.5rem;
         }
 
-        /* Call to action button */
         .contact-btn {
             padding: 12px 28px;
             background-color: #333;
@@ -66,6 +62,7 @@
             border-radius: 25px;
             font-weight: bold;
             transition: background-color 0.3s ease;
+            margin-bottom: 0.8rem;
         }
 
         .contact-btn:hover {
@@ -73,7 +70,21 @@
             color: white;
         }
 
-        /* Footer styling */
+        .email-text {
+            font-size: 0.95rem;
+            color: #777;
+        }
+
+        .email-text a {
+            color: #d8839a;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .email-text a:hover {
+            text-decoration: underline;
+        }
+
         footer {
             text-align: center;
             padding: 1.5rem 1rem;
@@ -94,8 +105,8 @@
         <p>We are currently working hard to set up our new website. We can't wait to share our exclusive collections and curated styles with you very soon.</p>
         <p>Stay tuned for our grand opening.</p>
         
-        <!-- You can replace the # with a mailto link like mailto:hello@thozhiboutique.in later -->
-        <a href="#" class="contact-btn">Contact Us</a>
+        <a href="mailto:contact@thozhiboutique.in" class="contact-btn">Contact Us</a>
+        <div class="email-text">or email us directly at <a href="mailto:contact@thozhiboutique.in">contact@thozhiboutique.in</a></div>
     </main>
 
     <footer>
